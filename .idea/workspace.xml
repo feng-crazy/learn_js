@@ -2,13 +2,343 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d59e01b-9ad5-4797-babf-8bc38d83c39f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class_object_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom_test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom_test1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/aes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/dh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/hmac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/rsa-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/rsa-prv.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/rsa-pub.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/crypto/rsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/first/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/first/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/read_image_file_async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/read_image_file_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/read_text_file_async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/read_text_file_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/use_buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/use_stat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/write_text_file_async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/fs/write_text_file_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/global/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/global/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/hello/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/hello/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/file_server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/css/uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/module/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/module/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/module/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/os/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/os/get_os_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/copy_file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/read_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/write_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/timers/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/timers/timers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/hello-sequelize/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/hello-sequelize/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/hello-sequelize/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/hello-sequelize/init.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/hello-sequelize/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/config-default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/config-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/init-db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/init.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/models/Pet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/db/model-sequelize/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/hello-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/hello-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/hello-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/controllers/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/url2-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/views/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/views/extend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/use-nunjucks/views/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/controllers/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/templating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/views/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/views/signin-failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/koa/view-koa/views/signin-ok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/log/winston/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/log/winston/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/log/winston/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/log/winston/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-hello/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-hello/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-hello/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-hello/controllers/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-hello/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/controllers/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/rest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/static/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/templating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/views/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/rest/rest-koa/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/async-test/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/async-test/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/async-test/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/async-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/async-test/test/await-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/hello-test/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/hello-test/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/hello-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/hello-test/test/hello-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/koa-test/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/koa-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/koa-test/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/test/koa-test/test/app-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/form-vue/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/hello-vue/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/controllers/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/rest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/saved-docs/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/mini-excel/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/controllers/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/rest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo-2/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/vue/vue-todo/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/hello-ws/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/hello-ws/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/hello-ws/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/controllers/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/nginx-sample.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/images/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/static/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/templating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/views/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/views/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/web/ws/ws-with-koa/views/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_test1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegExp_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/RegExp_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dom_test1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,36 +353,41 @@
     <session id="777109450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="847" />
+          <entry key="js" value="1011" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="847" />
+          <entry key="JavaScript" value="1011" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="11" />
-          <entry key="ts" value="1" />
+          <entry key="html" value="8" />
+          <entry key="js" value="43" />
+          <entry key="json" value="14" />
+          <entry key="ts" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="11" />
-          <entry key="TypeScript" value="1" />
+          <entry key="HTML" value="8" />
+          <entry key="JSON" value="14" />
+          <entry key="JavaScript" value="43" />
+          <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -60,88 +395,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_object_test.js">
+        <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="40" column="138" selection-start-line="40" selection-start-column="135" selection-end-line="40" selection-end-column="138" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dom_test1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_test1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dom_test1.js">
+        <entry file="file://$PROJECT_DIR$/async_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dom_test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegExp_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="600">
+              <caret line="89" column="17" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -149,8 +447,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9522">
-              <caret line="427" column="4" selection-start-line="427" selection-start-column="4" selection-end-line="427" selection-end-column="4" />
+            <state relative-caret-position="454">
+              <caret line="674" column="4" selection-start-line="674" selection-start-column="4" selection-end-line="674" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -160,10 +458,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>code</find>
+      <find>fn_signin</find>
+      <find>vm</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,8 +488,10 @@
         <option value="$PROJECT_DIR$/json_test.js" />
         <option value="$PROJECT_DIR$/class_test.js" />
         <option value="$PROJECT_DIR$/class_object_test.js" />
-        <option value="$PROJECT_DIR$/dom_test1.js" />
         <option value="$PROJECT_DIR$/dom_test1.html" />
+        <option value="$PROJECT_DIR$/dom_test1.js" />
+        <option value="$PROJECT_DIR$/node_test1.js" />
+        <option value="$PROJECT_DIR$/async_test.js" />
       </list>
     </option>
   </component>
@@ -200,9 +507,41 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node/web/db/hello-sequelize/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/web/koa/hello-koa/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/web/koa/url2-koa/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/web/koa/use-nunjucks/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/web/vue/hello-vue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/web/ws/hello-ws/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node/web/db/hello-sequelize/package.json" />
+      <path value="$PROJECT_DIR$/node/web/db/model-sequelize/package.json" />
+      <path value="$PROJECT_DIR$/node/web/koa/hello-koa/package.json" />
+      <path value="$PROJECT_DIR$/node/web/koa/url-koa/package.json" />
+      <path value="$PROJECT_DIR$/node/web/koa/url2-koa/package.json" />
+      <path value="$PROJECT_DIR$/node/web/koa/use-nunjucks/package.json" />
+      <path value="$PROJECT_DIR$/node/web/koa/view-koa/package.json" />
+      <path value="$PROJECT_DIR$/node/web/log/winston/package.json" />
+      <path value="$PROJECT_DIR$/node/web/rest/rest-hello/package.json" />
+      <path value="$PROJECT_DIR$/node/web/rest/rest-koa/package.json" />
+      <path value="$PROJECT_DIR$/node/web/test/async-test/package.json" />
+      <path value="$PROJECT_DIR$/node/web/test/hello-test/package.json" />
+      <path value="$PROJECT_DIR$/node/web/test/koa-test/package.json" />
+      <path value="$PROJECT_DIR$/node/web/vue/form-vue/package.json" />
+      <path value="$PROJECT_DIR$/node/web/vue/hello-vue/package.json" />
+      <path value="$PROJECT_DIR$/node/web/vue/mini-excel/package.json" />
+      <path value="$PROJECT_DIR$/node/web/vue/vue-todo-2/package.json" />
+      <path value="$PROJECT_DIR$/node/web/vue/vue-todo/package.json" />
+      <path value="$PROJECT_DIR$/node/web/ws/hello-ws/package.json" />
+      <path value="$PROJECT_DIR$/node/web/ws/ws-with-koa/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="979" />
   </component>
@@ -214,7 +553,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,6 +564,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,36 +588,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dom_test1.html">
-    <configuration name="dom_test1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_js/dom_test1.html">
+  <component name="RunManager" selected="Node.js.async_test.js">
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/node/web/ws/hello-ws">
       <method v="2" />
     </configuration>
-    <configuration name="class_object_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="class_object_test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/node/web/koa/url2-koa">
       <method v="2" />
     </configuration>
-    <configuration name="class_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="class_test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="async_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="async_test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="dom_test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="dom_test1.js" working-dir="$PROJECT_DIR$">
+    <configuration name="file_server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="file_server.js" working-dir="$PROJECT_DIR$/node/http">
       <method v="2" />
     </configuration>
-    <configuration name="json_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="json_test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="node_test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node_test1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.json_test.js" />
-      <item itemvalue="Node.js.class_test.js" />
-      <item itemvalue="Node.js.class_object_test.js" />
-      <item itemvalue="Node.js.dom_test1.js" />
-      <item itemvalue="JavaScript Debug.dom_test1.html" />
+      <item itemvalue="Node.js.file_server.js" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.app.js (1)" />
+      <item itemvalue="Node.js.node_test1.js" />
+      <item itemvalue="Node.js.async_test.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.dom_test1.html" />
-        <item itemvalue="Node.js.dom_test1.js" />
-        <item itemvalue="Node.js.class_object_test.js" />
-        <item itemvalue="Node.js.class_test.js" />
-        <item itemvalue="Node.js.json_test.js" />
+        <item itemvalue="Node.js.async_test.js" />
+        <item itemvalue="Node.js.node_test1.js" />
+        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.file_server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -295,23 +634,27 @@
       <workItem from="1540449489202" duration="7231000" />
       <workItem from="1540516906543" duration="7971000" />
       <workItem from="1540775286337" duration="11659000" />
-      <workItem from="1540947888844" duration="2270000" />
+      <workItem from="1540947888844" duration="2869000" />
+      <workItem from="1541035141987" duration="17455000" />
+      <workItem from="1541400955952" duration="597000" />
+      <workItem from="1542181584052" duration="1893000" />
+      <workItem from="1543382356713" duration="5700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29131000" />
+    <option name="totallyTimeSpent" value="55375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1035" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1790416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21601686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280899" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,41 +675,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bases.js">
+    <entry file="file://$PROJECT_DIR$/dom_test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_reduce_filter_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/closure_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="322">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/function_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -380,21 +699,21 @@
     <entry file="file://$PROJECT_DIR$/class_function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegExp_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -405,34 +724,235 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://$PROJECT_DIR$/node/http/hello.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9522">
-          <caret line="427" column="4" selection-start-line="427" selection-start-column="4" selection-end-line="427" selection-end-column="4" />
+        <state relative-caret-position="184">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_object_test.js">
+    <entry file="file://$PROJECT_DIR$/node/http/urls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="138" selection-start-line="40" selection-start-column="135" selection-end-line="40" selection-end-column="138" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom_test1.html">
+    <entry file="file://$PROJECT_DIR$/node/http/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/http/file_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/http/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/hello-koa/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/hello-koa/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url-koa/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/view-koa/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/hello-koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/.vscode/launch.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url-koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/node_modules/koa-bodyparser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/controllers/hello.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/url2-koa/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/use-nunjucks/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/use-nunjucks/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/use-nunjucks/views/extend.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/use-nunjucks/views/hello.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/koa/use-nunjucks/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/db/hello-sequelize/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/db/hello-sequelize/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/db/hello-sequelize/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/test/hello-test/hello.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/test/hello-test/test/hello-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/hello-ws/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/hello-ws/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/ws-with-koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/ws-with-koa/views/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/ws-with-koa/views/room.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/ws/ws-with-koa/views/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/rest/rest-hello/controllers/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/rest/rest-hello/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/web/vue/hello-vue/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dom_test1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="500">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="674" column="4" selection-start-line="674" selection-start-column="4" selection-end-line="674" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_test1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="17" />
         </state>
       </provider>
     </entry>
